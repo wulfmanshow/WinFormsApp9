@@ -17,7 +17,16 @@ namespace MdiApplication
 
         private void formatToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-
+            if (ТoggleMenuItem.Checked)
+            {
+                ТoggleMenuItem.Checked = false;
+                ChildTextBox.ForeColor = Color.Black;
+            }
+            else
+            {
+                ТoggleMenuItem.Checked = true;
+                ChildTextBox.ForeColor = Color.Blue;
+            }
         }
 
         private void FormatMenuItem_Click(object sender, EventArgs e)

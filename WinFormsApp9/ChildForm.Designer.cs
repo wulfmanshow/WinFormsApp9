@@ -98,7 +98,7 @@ namespace MdiApplication
 
         private System.Windows.Forms.RichTextBox ChildTextBox;
         private System.Windows.Forms.MenuStrip ChildWindowMenu;
-        private System.Windows.Forms.ToolStripMenuItem ТoggleMenuItem;
         private System.Windows.Forms.ToolStripMenuItem formatToolStripMenuItem1;
+        public System.Windows.Forms.ToolStripMenuItem ТoggleMenuItem;
     }
 }

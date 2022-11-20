@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MdiApplication;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -24,7 +25,9 @@ namespace WinFormsApp9
 
         private void NewMenuItem_Click(object sender, EventArgs e)
         {
-
+            ChildForm newChild = new ChildForm();
+            newChild.MdiParent = this;
+            newChild.Show();
         }
 
         private void cascateToolStripMenuItem_Click(object sender, EventArgs e)
